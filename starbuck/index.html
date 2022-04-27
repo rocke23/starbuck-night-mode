@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>how to make website darkmode</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section>
+<header>
+<a href="#"><img src="logo.png" class="logo"></a>
+    <ul class="navigation">
+        <li><a href="#">home</a></li>
+        <li><a href="#">menu</a></li>
+        <li><a href="#">what's new</a></li>
+        <li><a href="#">contact</a></li>
+        <li><span class="themeSwitch"></span></li>
+    </ul>
+</header>
+<div class="content">
+    <div class="textBox">
+        <h2>It's not just Coffee<br>It's <span>Starbucks<span></h2>
+        <p>comes with the first one of these days of the day and day to day out of a home and the Winter Soldier will never be able to see my name is not for us and we will be the one who has been in love GhostDragon and the Order of our freedom.</p>
+        <a href="#">learn more</a>
+    </div>
+    <div class="imgBox">
+        <img src="img.png">
+    </div>
+</div>
+<ul class="sci"> <!-- 11:53 minutes breaktime-->
+    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+</ul>
+</section>
+<script>
+let themeSwitch = document.querySelector('.themeSwitch');
+let body = document.querySelector('body');
+    themeSwitch.onclick = function(){
+    themeSwitch.classList.toggle('active');
+    body.classList.toggle('dark');
+}
+</script>
+</body>
+</html>
+
+
+
