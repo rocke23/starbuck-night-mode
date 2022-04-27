@@ -31,15 +31,17 @@ section{
 }
 header
 {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    padding: 10px 100px;
-    display:flex;
-    justify-content:Space-between;
-    align-items:center;
-    z-index: 10000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    z-index: 1000;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 header .logo
 {
